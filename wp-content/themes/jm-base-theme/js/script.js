@@ -148,5 +148,5 @@ function quizEnd() {
     });
 }
 
+// Grab the data and set up the quiz
 fetchData('http://localhost:8888/wp-quiz/wp-json/wp/v2/questions?_embed=1');
-// setUpQuiz();
